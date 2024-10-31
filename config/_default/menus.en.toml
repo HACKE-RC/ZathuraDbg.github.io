@@ -1,0 +1,42 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Download"
+url = "https://github.com/ZathuraDbg/ZathuraDbg/releases"
+weight = 3
+
+[[main]]
+name = "Socials"
+weight = 3
+
+
+[[main]]
+parent = "Socials"
+name = "GitHub"
+weight = 3
+url = "https://github.com/ZathuraDbg/ZathuraDbg"
+
+[[main]]
+parent = "Socials"
+name = "Discord"
+weight = 3
+url = "https://discord.com/invite/dyMuwaZfPf"
+
+[[main]]
+parent = "Socials"
+name = "X"
+weight = 3
+url = "https://x.com/ZathuraDbg"
+
+
